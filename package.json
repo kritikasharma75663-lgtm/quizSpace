@@ -1,0 +1,16 @@
+{
+  "name": "quizmaster",
+  "version": "1.0.0",
+  "description": "QuizMaster — Smart Online Quiz Platform (Full Stack MERN)",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["mern", "quiz", "quizmaster", "education", "mongodb", "react", "tailwind"],
+  "author": "Antigravity Team",
+  "license": "ISC"
+}
